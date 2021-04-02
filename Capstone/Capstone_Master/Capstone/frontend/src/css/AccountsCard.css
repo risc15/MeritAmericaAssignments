@@ -1,0 +1,84 @@
+  
+.card{
+  
+    width:400px;
+    background: linear-gradient(to bottom left, #e9e7e7 40%, #cecdcd 100%);
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    padding: 1rem;
+    color: #00b894;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-left:350px;
+    align-items:center;
+    display:block;
+    text-decoration: none;
+    margin-top: 30px;
+  
+
+
+}
+
+
+.link{
+  display:block;
+    text-decoration: none;
+
+}
+
+
+.card-title{
+  text-align:center;
+}
+
+
+.card_content {
+  padding: 1rem;
+  width:500px;
+  background: linear-gradient(to bottom left, #e9e7e7 40%, #cecdcd 100%);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card_title {
+  color: #3e3e3e;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.card_text {
+  color: #545353;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.Accounts__container-card {
+  background: linear-gradient(45deg, #ebebeb 0%, #ebe9e9 100%);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  height: 280px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.card_text2 {
+  color: #2d9103;
+  font-size: 45px;
+  line-height: 1.5;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;    
+  font-weight: 400;
+}
+
+ 
+

@@ -1,0 +1,9 @@
+.Account-Summary-Wrapper{
+  height: 80vh;
+  background-color: #aca9a994;
+  padding-top:0px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

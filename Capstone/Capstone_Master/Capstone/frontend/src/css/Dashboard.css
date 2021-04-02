@@ -1,0 +1,63 @@
+.Dashboard-Wrapper{
+    background-color: lightgray;
+    background-size: cover;
+    padding-bottom:20px ;
+    
+   
+    
+}
+
+.Empty-Dashboard{
+  background:  url('./undraw_Browser_stats_re_j7wy.svg');
+    background-repeat: no-repeat;
+    height: 80vh;
+    -webkit-background-size: cover;
+    background-size: 600px;
+    background-color: #d1dbd9;
+    padding-top:0px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Dashboard-container{
+  position:relavtive;
+  top:20px;
+  margin-left:600px;
+  display:Right;
+  align-items: center;
+  text-align:center;
+  padding: 50px;
+  position: relative;
+  color:#00b894;
+  
+  
+}
+#welcome-title{
+    font-size:25px;
+    font-weight: bold;
+    font-style: sans-serif;
+    color: #35413e;
+    margin-left: 360px;
+    margin-top: 1000px;
+}
+
+  #welcome-title h7{
+    margin-top: 200px;
+
+    
+    
+}
+
+.Btn{
+  width:100%;
+  background: none;
+  border: 2px solid #00b894;
+  color: black;
+  padding:5px;
+  font-size:20px;
+  cursor: pointer;
+  margin:12px 0;
+  align-items: center;
+}

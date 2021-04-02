@@ -1,0 +1,29 @@
+.About-Wrapper {
+    background:  url('./undraw_Social_ideas_re_j5v4.svg');
+    background-repeat: no-repeat;
+    height: 80vh;
+    -webkit-background-size: cover;
+    background-size: 600px;
+    background-color: #d1dbd9;
+    padding-top:0px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+
+  }
+
+  .About-container{
+    position:relavtive;
+    top:20px;
+    margin-left:600px;
+    display:Right;
+    align-items: center;
+    text-align:center;
+    padding: 50px;
+    position: relative;
+    color:#00b894;
+    
+    
+  }
