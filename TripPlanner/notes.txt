@@ -1,0 +1,9 @@
+The trip planner will be divided up into separate parts:
+
+1. Greeting
+2. Travel Time and Budget
+3. Time Difference
+4. Country Area
+5. Round
+6. Hacker Problem - How Far?
+

@@ -1,0 +1,22 @@
+Let's say a student writes the following line of code in a predicate method:
+
+public boolean IsNameQ() {
+	String name = readLine("Enter name: ");
+	return (name == "Q");
+}
+
+The author of this code thinks that the program will return true if the player's name is "Q". What's the problem here?
+
+Answer: The problem is that the student is using a comparison operator on an object against another object. In this sense, two strings. While each string may have the same values in them, each object is a different object in memory with different address pointers. So, the comparison above will always return false since both entities are not the same. The student could use: return (name.equals("Q");
+
+Now consider if the code were written as:
+
+public boolean IsNameQ() {
+	String name = readLine("Enter name: ");
+	char ch = name.carAt(0);
+	return ((ch == 'Q') && (name.length() == 1));
+}
+
+How is the code above different with respect to checking for equality with the value "Q"?
+
+Answer: This code is different, because we are taking the primitive character value from the String object and comparing that value with another character. Because these are both primitives that can also be turned into numerical values, the comparison operator works as intended. Furthermore, we are also checking if the length of the string is only one, so there are no false positives such as if the user entered Quinell or Quack.
