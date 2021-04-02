@@ -1,0 +1,78 @@
+┌────────────────────────────────┐
+│			output				 │
+├────────────────────────────────┤
+│ witch: x = 1, y = 1			 │
+│ witch: x = 10 , y = 0			 │
+│ witch: x = 101, y = 1			 │
+│ witch: x = 1011, y = 1		 │
+│ ghost: x = 13, y = 1011		 │
+└────────────────────────────────┘
+
+ghost
+=====
+
+loop 1:
+i = 1
+x = 13
+y = 0
+y = witch(0, skeleton(13, 1))
+y = witch(0, 1) = 1
+
+loop 2:
+i = 2
+y = witch(1, skeleton(13,2))
+y = witch(1,0) = 10
+
+loop 3:
+i = 4
+y = witch(10, skeleton(13,4))
+y = witch(10, 1) = 101
+
+loop 4:
+i = 8
+y = witch(101, skeleton(13, 8))
+y = witch(101, 1) = 1011
+
+
+
+witch
+=====
+
+x = 0
+y = 1
+x = 10 * 0 + 1 = 1
+return 1
+
+x = 1
+y = 0
+x = 10 * 1 + 0 = 10
+return 10
+
+x = 10
+y = 1
+x = 10 * 10 + 1 = 101
+return 101
+
+x = 101
+y = 1
+x = 10 * 101 + 1 = 1011
+return 1011
+
+skeleton
+========
+
+x = 13
+y = 1
+return 13 / 1 % 2 = 1
+
+x = 13
+y = 2
+return 13 / 2 % 2 = 0
+
+x = 13
+y = 4
+return 13 / 4 % 2 = 1
+
+x = 13
+y = 8
+return 13 / 8 % 2 = 1
